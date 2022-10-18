@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+header p {
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #707070;
+    font-family: 'Lato', sans-serif;
+
+}
+
+header nav {
+    display: flex;
+    column-gap: 90px;
+    margin-right: 67px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #707070;
+    font-family: 'Lato', sans-serif;
+
+}
+
+hr {
+    width: 100%;
+    box-shadow: 0px 0px 6px #707070;
+    opacity: 50%;
+}
+
+section {
+    margin: auto;
+    background-color: #C9C9C9;
+    width: 90%;
+    height: 100px;
+    padding: 35px;
+    border: #707070;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+section>nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #707070;
+    column-gap: 10px;
+
+}
+
+section>nav>p {
+    color: #707070;
+
+
+}
+
+section>nav>div {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    color: #707070;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+
+article>nav {
+    padding: 30px;
+    color: #707070;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.oo {
+    margin: auto;
+    background-color: #C9C9C9;
+    width: 90%;
+    height: 100px;
+    padding: 35px;
+    border: #707070;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oo>nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #707070;
+    column-gap: 10px;
+
+}
+
+.oo>p {
+    color: #707070;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.oo>nav>div {
+
+    color: #707070;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header>nav {
+        display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    }
+
+    header>nav>a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        column-gap: 10px;
+        margin: 0px;
+
+    }
+
+    header>p {
+        margin: 0px;
+        text-align: center;
+    }
+}
